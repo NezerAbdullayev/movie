@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/components/icon/icon.min.css"
+    />
+    <!-- Ionicons JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- login section  -->
+      <section class="user_account_container">
+        <!-- mobil -->
+        <div class="section_container mobil_navbar">
+          <a>
+            <img
+              class="header_mobile_logo login_mobile_back"
+              src="images/icons/chevron-left.svg"
+            />
+          </a>
+
+          <div class="home_mobile__menu">
+            <div class="mobil_container">
+              <img
+                class="mobilButton"
+                src="images/icons/menu-alt-3.svg"
+                alt=""
+              />
+              <nav class="burger">
+                <ul>
+                  <li><a href="./HomeDefault.html">Home</a></li>
+                  <li><a href="#">Discover</a></li>
+                  <li><a href="#">Movie Release</a></li>
+                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="./login.html">login</a></li>
+                  <li><a href="./signup.html">sign up</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!--  form cart container -->
+        <div class="account_box">
+          <!-- form header -->
+          <div class="form_header_container">
+            <div class="form__left">
+              <a href="./HomeDefault.html"
+                ><img src="images/icons/Component 1.png" alt="logo"
+              /></a>
+              <span>Login to your account</span>
+            </div>
+            <button class="transparent_button btn_padding form_close_btn">
+              Close
+            </button>
+          </div>
+          <!-- form main  -->
+          <form class="form_main_container">
+            <!-- email -->
+            <div class="input_box">
+              <label for="login_email">Email</label>
+              <input
+                id="login_email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <!-- password -->
+            <div class="input_box">
+              <label for="login_password">Email</label>
+              <div class="relative_input">
+                <input
+                  id="login_password"
+                  type="password"
+                  placeholder="Password"
+                  required
+                  autocomplete="current-password"
+                />
+                <ion-icon
+                  class="password_show password_toggle hidden"
+                  name="eye-outline"
+                ></ion-icon>
+                <ion-icon
+                  class="password_hidden password_toggle"
+                  name="eye-off-outline"
+                ></ion-icon>
+              </div>
+            </div>
+
+            <!-- query container -->
+            <div class="query_container">
+              <a href="">Forgot password</a>
+            </div>
+            <!-- button -->
+            <button class="gray_green_btn font__sm">Login</button>
+          </form>
+          <!-- form end -->
+
+          <!-- rota -->
+          <div class="new_direction bold">
+            Don’t have an account?
+            <a class="text-green" href="./signup.html">Sign up</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

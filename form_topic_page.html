@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/components/icon/icon.min.css"
+    />
+    <!-- Ionicons JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header start -->
+      <header>
+        <!-- normal -->
+        <div class="section_container header_container">
+          <a class="logo">
+            <img src="./images/icons/Component 1.png" alt="logo" />
+          </a>
+
+          <nav class="header--nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Discover</a></li>
+              <li><a href="#">Movie Release</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+
+          <div class="notif">
+            <div class="search_icon">
+              <img
+                class="search_icon"
+                src="./images/icons/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="search"
+              />
+              <div class="search_input">
+                <input type="text" />
+              </div>
+            </div>
+
+            <div class="message_box">
+              <img src="./images/icons/bell.svg" />
+            </div>
+
+            <div class="profil">
+              <img src="images/icons/Image.svg" alt="profil image" />
+              <img
+                src="images/icons/Arrow - Down 2.svg"
+                alt="profil more icon"
+              />
+            </div>
+            <nav class="burger">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Movie Release</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- main start -->
+      <main>
+        <!-- header section 1  start-->
+        <section id="topic_hero_section">
+          <div class="details_container section_container">
+            <div class="movie--details--wrapper topic_details_container">
+              <button class="black_button">Movie</button>
+
+              <div class="movie-details">
+                <div>
+                  <h2 class="movie--title">Star Wars: The force Awaken</h2>
+                  <span class="topic-date"
+                    >2h40m • 2022 • Fantasy • Actions</span
+                  >
+                  <p class="topic_p">
+                    The third season of the American television series The
+                    Mandalorian stars Pedro Pascal as the title character, a
+                    bounty hunter traveling to Mandalore to redeem his past
+                    transgressions with his adopted son Grogu and being aided on
+                    their journey by fellow Mandalorian Bo-Katan Kryze.
+                  </p>
+                </div>
+                <div class="button_wrapper">
+                  <div>
+                    <button
+                      class="play_button hover-gray padding_xl  rounded-base flex_center text_white"
+                    >
+                      <img
+                        class="font-width-24"
+                        src="images/icons/play_circle_filled_24dp_FFFFFF.svg"
+                        alt="play button"
+                      />
+                      <span>Play Again</span>
+                    </button>
+
+                    <button class="transparent_button padding_xl ">
+                      <img class="font-width-24" src="images/icons/Icon.svg" />
+                      <span class="block">Add Watchlist</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  section 1  end-->
+
+        <!-- section 2 start -->
+        <section class="topic_option_container">
+          <div class="section_container">
+            <!-- options -->
+            <div>
+              <div class="category_title">
+                <a class="active">Discussion</a>
+                <a href="">News</a>
+                <a href="">Reviews</a>
+                <a href="">Universe</a>
+              </div>
+            </div>
+            <!-- info -->
+            <div class="topic_content popular_discussion__wrapper">
+              <!-- left -->
+              <div class="discussion_premiere_container">
+                <!-- form start -->
+                <form>
+                  <div class="new_post_container">
+                    <div class="input_container">
+                      <input type="text" placeholder="Post your discussion" />
+                      <ion-icon class="video_icon" name="videocam"></ion-icon>
+                    </div>
+                    <button
+                      class="play_button rounded-base flex_center text_white padding_xl"
+                    >
+                      Post
+                    </button>
+                  </div>
+                </form>
+                <!-- form end -->
+
+                <!-- mobil options -->
+                <div class="category_title_mobil">
+                    <a class="active">Discussion</a>
+                    <a href="">News</a>
+                    <a href="">Reviews</a>
+                    <a href="">Universe</a>
+                </div>
+
+                <!-- Popular Discussion container -->
+                <div class="popular_discussion_container">
+                    <h2 class="container_title">⭐ Popular Discussion</h2>
+                  <!-- discussions -->
+                  <div class="discussion_container">
+                    <!-- item 1 -->
+                    <div class="discussion_item">
+                      <!-- arrows -->
+                      <div class="arrow_container">
+                        <ion-icon
+                          name="arrow-up-circle"
+                          class="arrow-up-circle"
+                        ></ion-icon>
+                        <span class="discussion_count">22</span>
+                        <ion-icon
+                          class="arrow-down-circle"
+                          name="arrow-down-circle"
+                        ></ion-icon>
+                      </div>
+
+                      <!-- texts and image -->
+                      <div class="discussion--text_container">
+                        <!-- discussions text -->
+                        <div class="discussion--text">
+                          <h3>
+                            <a href="">
+                              Do you agree the Spiderman 3 is the worst movie?
+                              Why?</a
+                            >
+                          </h3>
+                          <p>
+                            Ahmad Movi lives with his newfound family formed on
+                            the planet of Pandora. Once a familiar threat
+                            returns to finish. Jake must work with Neytiri and
+                            the army of the Na'vi race to protect their planet.
+                            ...
+                          </p>
+
+                          <!-- discussion reyting  container-->
+                          <div class="discussion__reyting">
+                            <div class="tag_and_tiem">
+                              <span class="text-green">@GaranAlbino</span>
+                              <span class="text-gray">3 Hours ago</span>
+                            </div>
+                            <div class="like_and_comment">
+                              <div>
+                                <img
+                                src="images/icons/heartheart_discussion.svg"
+                                alt= />
+                                <span>65</span>
+                              </div>
+                              <div>
+                                <img src="images/icons/chatcomment.svg" />
+                                <span>10</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- discussions image -->
+                        <div class="discussion--img">
+                          <img
+                            src="images/form_page_images/moveis/Imageçlavekpaul.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="discussion_item">
+                      <!-- arrows -->
+                      <div class="arrow_container">
+                        <ion-icon
+                          name="arrow-up-circle"
+                          class="arrow-up-circle"
+                        ></ion-icon>
+                        <span class="discussion_count">22</span>
+                        <ion-icon
+                          class="arrow-down-circle"
+                          name="arrow-down-circle"
+                        ></ion-icon>
+                      </div>
+
+                      <!-- texts and image -->
+                      <div class="discussion--text_container">
+                        <!-- discussions text -->
+                        <div class="discussion--text">
+                          <h3>Spiderman; Into The Spiderverse second movie?</h3>
+                          <p>
+                            Ahmad Movi lives with his newfound family formed on
+                            the planet of Pandora. Once a familiar threat
+                            returns to finish. Jake must work with Neytiri and
+                            the army of the Na'vi race to protect their planet.
+                            ...
+                          </p>
+
+                          <!-- discussion reyting  container-->
+                          <div class="discussion__reyting">
+                            <div class="tag_and_tiem">
+                              <span class="text-green">@GaranAlbino</span>
+                              <span class="text-gray">3 Hours ago</span>
+                            </div>
+                            <div class="like_and_comment">
+                              <div>
+                                <img
+                                src="images/icons/heartheart_discussion.svg"
+                                alt= />
+                                <span>0</span>
+                              </div>
+                              <div>
+                                <img src="images/icons/chatcomment.svg" />
+                                <span>1</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- discussions image -->
+                        <div class="discussion--img">
+                          <img
+                            src="images/form_page_images/moveis/Imagebaydırman.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 3 -->
+                    <div class="discussion_item">
+                      <!-- arrows -->
+                      <div class="arrow_container">
+                        <ion-icon
+                          name="arrow-up-circle"
+                          class="arrow-up-circle"
+                        ></ion-icon>
+                        <span class="discussion_count">22</span>
+                        <ion-icon
+                          class="arrow-down-circle"
+                          name="arrow-down-circle"
+                        ></ion-icon>
+                      </div>
+
+                      <!-- texts and image -->
+                      <div class="discussion--text_container">
+                        <!-- discussions text -->
+                        <div class="discussion--text">
+                          <h3>Top Gun is propaganda for the Movie World?</h3>
+                          <p>
+                            Ahmad Movi lives with his newfound family formed on
+                            the planet of Pandora. Once a familiar threat
+                            returns to finish. Jake must work with Neytiri and
+                            the army of the Na'vi race to protect their planet.
+                            ...
+                          </p>
+
+                          <!-- discussion reyting  container-->
+                          <div class="discussion__reyting">
+                            <div class="tag_and_tiem">
+                              <span class="text-green">@GaranAlbino</span>
+                              <span class="text-gray">3 Hours ago</span>
+                            </div>
+                            <div class="like_and_comment">
+                              <div>
+                                <img
+                                src="images/icons/heartheart_discussion.svg"
+                                alt= />
+                                <span>432</span>
+                              </div>
+                              <div>
+                                <img src="images/icons/chatcomment.svg" />
+                                <span>65</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- discussions image -->
+                        <div class="discussion--img">
+                          <img
+                            src="images/form_page_images/moveis/Imagetopgun.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="discussion_item">
+                      <!-- arrows -->
+                      <div class="arrow_container">
+                        <ion-icon
+                          name="arrow-up-circle"
+                          class="arrow-up-circle"
+                        ></ion-icon>
+                        <span class="discussion_count">22</span>
+                        <ion-icon
+                          class="arrow-down-circle"
+                          name="arrow-down-circle"
+                        ></ion-icon>
+                      </div>
+
+                      <!-- texts and image -->
+                      <div class="discussion--text_container">
+                        <!-- discussions text -->
+                        <div class="discussion--text">
+                          <h3>
+                            Jason Statham injuries in the Mechanic Movie is
+                            real?
+                          </h3>
+                          <p>
+                            Ahmad Movi lives with his newfound family formed on
+                            the planet of Pandora. Once a familiar threat
+                            returns to finish. Jake must work with Neytiri and
+                            the army of the Na'vi race to protect their planet.
+                            ...
+                          </p>
+
+                          <!-- discussion reyting  container-->
+                          <div class="discussion__reyting">
+                            <div class="tag_and_tiem">
+                              <span class="text-green">@GaranAlbino</span>
+                              <span class="text-gray">3 Hours ago</span>
+                            </div>
+                            <div class="like_and_comment">
+                              <div>
+                                <img
+                                src="images/icons/heartheart_discussion.svg"
+                                alt= />
+                                <span>43</span>
+                              </div>
+                              <div>
+                                <img src="images/icons/chatcomment.svg" />
+                                <span>14</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- discussions image -->
+                        <div class="discussion--img">
+                          <img
+                            src="images/form_page_images/moveis/Imagechanic.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex_center mt-30">
+                    <button class="transparent_button button_xl">
+                      Show more
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- right -->
+              <div class="profil_container">
+                <div class="profil_title">
+                  <h4>Profile</h4>
+                  <div class="edit__container">
+                    <ion-icon
+                      class="edit__icon"
+                      name="create-outline"
+                    ></ion-icon>
+                    <span>Edit</span>
+                  </div>
+                </div>
+
+                <div class="profil_main">
+                  <!-- profil img -->
+                  <img src="./images/profil/Image.png" alt="profil image" />
+                  <!-- follow content -->
+                  <div class="follow_content">
+                    <div class="followers">
+                      <span>24</span>
+                      <span>Followers</span>
+                    </div>
+
+                    <div class="followers">
+                      <span>4</span>
+                      <span>Following</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- profil detl -->
+                <div class="profil_details">
+                  <!-- profil name -->
+                  <h3>Irvan Wibowo</h3>
+                  <p>
+                    Irvan Wibowo lives with his newfound family formed on the
+                    planet of Pandora. Once a familiar threat returns to finish
+                    what was previously started, Jake must work with Neytiri and
+                    the army of the Na'vi race to protect their planet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section 2 end -->
+      </main>
+      <!-- main end -->
+
+      <!-- footer start -->
+      <footer>
+        <div class="section_container footer_container">
+          <div>
+            <h4>
+              Our platform is trusted by millions & features best updated movies
+              all around the world.
+            </h4>
+            <div class="footer_nav_container">
+              <nav>
+                <!-- after iledə etmek olardı bu yolu seçdim -->
+                <a href="">Home</a>
+                <span>/</span>
+                <a href="">Discover</a>
+                <span>/</span>
+                <a href="">Influence</a>
+                <span>/</span>
+                <a href="">Release</a>
+              </nav>
+              <div class="social_container">
+                <img src="images/social/icons8-instagram-30.png" />
+                <img src="images/social/icons8-facebook-30.png" />
+                <img src="images/social/icons8-twitter-squared-50.png" />
+                <img src="images/social/Google.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="end">
+            <div>
+              <span>Privacy policy</span>
+              <span>Term of service</span>
+              <span>Language</span>
+            </div>
+            <div class="date">© 2023</div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+
+    <!-- script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
